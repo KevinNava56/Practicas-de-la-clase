@@ -1,0 +1,16 @@
+cadena = "hola mundo python"
+
+def contar_vocales(cadena):
+    vocales = {'a':0, 'e':0, 'i':0, 'o':0, 'u':0,}
+    for letra in cadena:
+        if letra.lower() in vocales:
+            vocales[letra.lower()] += 1
+    return vocales
+
+cadena = input("ingresa una cadena de texto: ")
+resultado = contar_vocales(cadena)
+print("Cantidad de vocales:")
+for vocal, cantidad in resultado.items():
+    print(f"{vocal}: {cantidad}")
+      
+            
