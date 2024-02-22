@@ -1,0 +1,6 @@
+cadena = "dejah@gmail.com"
+for i in cadena [0], cadena[2], cadena[4], cadena[6], cadena[8], cadena[10], cadena[12], cadena[14]:
+    print(i)
+
+for i in cadena [1], cadena[3], cadena[5], cadena[7], cadena[9], cadena[11], cadena[13]:
+    print(i)
